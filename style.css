@@ -1,0 +1,15 @@
+/* Minimal, clean styling */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+.container { max-width: 800px; padding: 1rem; margin: 0 auto; }
+header { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #ddd; }
+header h1 { font-size: 1.25rem; margin: 0; }
+nav a { margin-left: .75rem; text-decoration: none; }
+.hero { padding: 2rem 0; }
+.hero h2 { margin: 0 0 .5rem 0; font-size: 2rem; }
+.btn { display: inline-block; padding: .6rem 1rem; border: 1px solid #333; border-radius: .4rem; text-decoration: none; }
+section { margin: 2rem 0; }
+footer { border-top: 1px solid #ddd; padding-top: 1rem; margin-top: 2rem; text-align: center; }
+@media (max-width: 600px) {
+header { flex-direction: column; align-items: flex-start; gap: .5rem; }
+}
